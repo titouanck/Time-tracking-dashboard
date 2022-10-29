@@ -393,8 +393,8 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 22.7px;
-    grid-row-gap: 22.7px;
+    grid-column-gap: 27.24px;
+    grid-row-gap: 27.24px;
     margin: auto;
   }
   .mainCard {
@@ -419,45 +419,45 @@ body {
     grid-area: 2/4/3/5;
   }
   .mainCard__profile {
-    padding: 31.213px 0 77.18px 26.673px;
+    padding: 33.179419px 0 82.04234px 28.353399px;
   }
   .mainCard__profile__img {
-    width: 78.315px;
-    margin-bottom: 39.725px;
+    width: 83.248845px;
+    margin-bottom: 42.227675px;
   }
   .mainCard__profile__text {
     width: 100%;
   }
   .mainCard__profile__description {
-    font-size: 13.62px;
-    line-height: 14.188px;
+    font-size: 1calc 3.84806px;
+    line-height: 15.081844px;
   }
   .mainCard__profile__name {
-    width: 124.283px;
-    font-size: 35.753px;
+    width: 132.112829px;
+    font-size: 38.005439px;
   }
   .mainCard__durations {
-    padding: 26.389px 0 26.389px 26.673px;
+    padding: 28.051507px 0 28.051507px 28.353399px;
   }
   .mainCard__durations span {
-    font-size: 15.89px;
-    line-height: 34.05px;
+    font-size: 16.89107px;
+    line-height: 36.19515px;
   }
   .card__imgContainer {
-    height: 42.336px;
+    height: 45.003168px;
   }
   .card__img {
-    width: 42.336px;
-    margin-right: 26.616px;
+    width: 45.003168px;
+    margin-right: 28.292808px;
   }
   .card__text {
-    padding: 27.637px 27.637px 31.213px 27.637px;
+    padding: 29.378131px 29.378131px 33.179419px 29.378131px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     row-gap: 0vw;
     grid-row-gap: 0px;
-    height: 186.8215px;
+    height: 198.5912545px;
   }
   .card__category {
     grid-area: 1/1/2/2;
@@ -475,16 +475,16 @@ body {
     justify-self: end;
   }
   .card__category {
-    font-size: 15.89px;
+    font-size: 16.89107px;
   }
   .card__dots {
-    width: 19.295px;
+    width: 20.510585px;
   }
   .card__time {
-    font-size: 51.075px;
+    font-size: 54.292725px;
   }
   .card__lastTime {
-    font-size: 13.62px;
+    font-size: 14.47806px;
   }
 }
 

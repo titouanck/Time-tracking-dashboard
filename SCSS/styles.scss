@@ -476,8 +476,8 @@ body {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(2, 1fr);
-		grid-column-gap: 22.7px;
-		grid-row-gap: 22.7px;
+		grid-column-gap: calc(1.2 * 22.7px);
+		grid-row-gap: calc(1.2 * 22.7px);
 		margin: auto;
 	} 
 
@@ -493,12 +493,12 @@ body {
 
 	.mainCard {
 		&__profile {
-			padding: 31.213px 0 77.18px 26.673px;
+			padding: calc(1.063 * 31.213px) 0 calc(1.063 * 77.18px) calc(1.063 * 26.673px);
 			// padding: 5.5vw 0 14.6vw 4.7vw;
 
 			&__img {
-				width: 78.315px;
-				margin-bottom: 39.725px;
+				width: calc(1.063 * 78.315px);
+				margin-bottom: calc(1.063 * 39.725px);
 			}
 
 			&__text {
@@ -508,27 +508,27 @@ body {
 			}
 
 			&__description {
-				font-size: 13.62px;
-				line-height: 14.188px;
+				font-size: 1calc(1.063 * 3.62px);
+				line-height: calc(1.063 * 14.188px);
 				// width: 11.4vw;
 			}
 
 			&__name {
-				width: 124.283px;
-				font-size: 35.753px;
+				width: calc(1.063 * 124.283px);
+				font-size: calc(1.063 * 35.753px);
 			}
 		}
 
 		&__durations {
-			padding: 26.389px 0 26.389px 26.673px;
+			padding: calc(1.063 * 26.389px) 0 calc(1.063 * 26.389px) calc(1.063 * 26.673px);
 			// display: grid;
 			// grid-template-columns: repeat(3, 1fr);
 			// text-align: center;
 
 			span {
-				font-size: 15.89px;
+				font-size: calc(1.063 * 15.89px);
 				// width: 6.34vw;
-				line-height: 34.05px;
+				line-height: calc(1.063 * 34.05px);
 				// background-color: red;
 			}
 		}
@@ -536,23 +536,23 @@ body {
 
 	.card {
 		&__imgContainer {
-			height: 42.336px;
+			height: calc(1.063 * 42.336px);
 		}
 		
 		&__img {
-			width: 42.336px;
-			margin-right: 26.616px;
+			width: calc(1.063 * 42.336px);
+			margin-right: calc(1.063 * 26.616px);
 		}
 
 		&__text {
-			padding: 27.637px 27.637px 31.213px 27.637px;
+			padding: calc(1.063 * 27.637px) calc(1.063 * 27.637px) calc(1.063 * 31.213px) calc(1.063 * 27.637px);
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
 			align-items: center;
 			row-gap: 0vw;
 			grid-row-gap: 0px;
 
-			height: calc(1/2 * (248.565px + 55.275px + 62.425px + 7.378px));
+			height: calc(1.063 * (calc(1/2 * (248.565px + 55.275px + 62.425px + 7.378px))));
 		}
 
 		&__category { grid-area: 1 / 1 / 2 / 2; }
@@ -566,18 +566,18 @@ body {
 		}
 		&__category {
 			// width: 6.6vw;
-			font-size: 15.89px;
+			font-size: calc(1.063 * 15.89px);
 		}
 		&__dots {
-			width: 19.295px;
+			width: calc(1.063 * 19.295px);
 		}
 		&__time {
 			// width: 22.6vw;
-			font-size: 51.075px;
+			font-size: calc(1.063 * 51.075px);
 		}
 		&__lastTime {
 			// width: 20vw;
-			font-size: 13.62px;
+			font-size: calc(1.063 * 13.62px);
 		}
 	}
 }
